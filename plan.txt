@@ -1,0 +1,138 @@
+Admin {
+    View Student {
+        Full Record {#####}
+
+        Classwise {#####}
+
+        Specs {
+            ID {#####}
+
+            Roll {#####}
+
+            Name {#####}
+            #####
+        }
+        #####
+    }
+
+    Edit Student {
+        Name {#####}
+
+        Class {#####}
+
+        Roll {#####}
+
+        Address {#####}
+
+        Father {#####}
+
+        Mother {#####}
+
+        Sex {#####}
+
+        Email {#####}
+
+        Phone {#####}
+        #####
+    }
+
+    View Teacher {
+        Full Record {#####}
+
+        Subjectwise {#####}
+
+        Specs {
+            ID {#####}
+
+            Name {#####}
+            #####
+        }
+        #####
+    }
+
+    Edit Teacher {
+        #####
+    }
+
+    Add Teacher {
+        #####
+    }
+
+    Add Student {
+        #####
+    }
+    
+    Password {
+        #####
+    }
+
+    Application S{
+        #####
+    }
+    Application T{
+        #####
+    }
+    #####
+}
+
+Teacher {
+    View Self {
+        #####
+    }
+
+    Be Admin {
+        #####
+    }
+
+    View Student {
+        Full Record 
+
+        Classwise {}
+
+        Specs {
+            ID {}
+
+            Roll {}
+
+            Name {}
+            
+        }
+        #####
+    }
+    Apply Edit {
+        #####
+    }
+    #####
+}
+
+Student {
+    View Self {
+        #####
+    }
+
+    Apply Edit {
+        students can apply to change their data......
+        (they cannot chnage or alter their roll number section & class, they are allowded only to change the name of student, address, email, phone number)
+        (redirect it to the database and update the data into the desire table according to the students need)
+        #####
+    }
+
+    View Teacher (menu driven) {
+        {
+            subject wise...
+        }
+
+        {
+            address wise....
+        }
+
+        {
+            degree wise.......
+        }
+
+        students if want to view the details of teachers........
+        (name, address,degree, subject )
+        #####
+    }
+    #####
+}
